@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #c2f7ff;
+}
+main {
+  width: 75%;
+  height: 80%;
+  margin: 5rem auto;
+  display: flex;
+}
+.one {
+  width: 50%;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.one h1 {
+  font-size: 2.5rem;
+  margin: 45% 0 0.6rem;
+}
+.one h3 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.one button {
+  color: white;
+  background-color: rgb(97, 156, 138);
+  border: 0;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 30px;
+}
+.one button:hover {
+  background-color: rgba(97, 156, 138, 0.8);
+}
+.one button p {
+  margin: 0 1rem -3rem 0;
+  float: right;
+  font-weight: bold;
+}
+.one button img {
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1rem;
+}
+.two {
+  width: 50%;
+  background-color: white;
+  padding: 2rem;
+}
+.two h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.two .flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.two .flex:first-of-type {
+  margin-bottom: 1rem;
+}
+.two .flex p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: left;
+}
+.two .flex img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.two .flex .radius {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.two .flex .date {
+  font-size: 2.5rem;
+  color: rgba(26, 20, 26, 0.9);
+  margin: 10px 0.5rem 0 0;
+  font-weight: 200;
+}
+.year {
+  word-spacing: 1rem;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+  color: #bcbabc;
+  position: relative;
+}
+.year::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 21px;
+  width: 45%;
+  background: linear-gradient(90deg, transparent, white);
+}
+.black {
+  color: black;
+}
+
+.jan p:first-of-type {
+  margin-bottom: -0.7rem;
+}
+/* #one .jan {
+  margin-right: -1.7rem;
+}
+#two .jan {
+  margin-right: -0.4rem;
+}
+.two .date:first-of-type {
+  margin-right: 0rem;
+  margin-left: 5rem;
+}
+#one p {
+  margin-right: 2rem;
+} */
+#two p:first-of-type {
+  margin-left: 2rem;
+}
+#two p:last-of-type {
+  margin-right: -1rem;
+}
+#two .jan p:last-of-type {
+  margin-right: 0px;
+  float: right;
+}
+#three p:first-of-type {
+  margin-left: 1.6rem;
+}
+#three p:last-of-type {
+  margin-right: -0.7rem;
+}
+#three .jan p:last-of-type {
+  margin-right: -2px;
+  float: right;
+}
+#one p:first-of-type {
+  margin-left: -2.8rem;
+}
+#one p:last-of-type {
+  margin-right: -3rem;
+}
+#one .jan p:first-of-type {
+  margin-left: 0.2rem;
+}
+#four p:first-of-type {
+  margin-left: -4rem;
+}
+#four p:last-of-type {
+  margin-right: -7rem;
+}
+#four .jan p:first-of-type {
+  margin-left: 2rem;
+}
+#four .jan p:last-of-type {
+  margin-right: -2px;
+  float: right;
+}
+#five p:last-of-type {
+  margin-right: -1.5rem;
+}
